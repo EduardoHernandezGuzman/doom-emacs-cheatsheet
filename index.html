@@ -241,7 +241,7 @@
       statusEl.textContent = 'descargando markdown…';
 
       try {
-        const url = 'https://raw.githubusercontent.com/EduardoHernandezGuzman/doom-emacs-cheatsheet/master/cheatsheet.md';
+        const url = 'cheatsheet.md';
 
         const res = await fetch(url + '?t=' + Date.now());
         if (!res.ok) throw new Error('HTTP ' + res.status);
