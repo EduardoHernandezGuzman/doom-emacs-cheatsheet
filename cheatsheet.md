@@ -67,7 +67,7 @@
 - `C-d` / `C-u` → Media página abajo / arriba
 - `zz` → Centrar cursor
 
----
+
 
 ##  Mis ultra favoritos
 
@@ -76,3 +76,14 @@
 - `SPC g g` → Magit
 - `SPC :` → `M-x` rápido
 - `C-g` → Cancelar todo (botón del pánico)
+
+---
+
+##  Temas (themes)
+
+- `SPC h t` → Selector de tema (themes)
+- `M-x consult-theme` → Elegir tema (si usas consult)
+- `M-x load-theme` → Cargar tema manualmente
+- En `~/.doom.d/config.el`:
+  ```elisp
+  (setq doom-theme 'doom-one)
